@@ -1,0 +1,217 @@
+:root {
+    --primary-bg: #111;
+    --primary-text: #fff;
+    --header-bg: #000;
+    --header-text: #fff;
+    --city-selector-bg: #222;
+    --city-selector-border: #00aaff;
+    --auth-btn-bg: #555;
+    --auth-btn-hover-bg: #777;
+    --pelicula-bg: #fff;
+    --pelicula-info-bg: #f4f4f4;
+    --btnScroll-hover-scale: 1.1;
+}
+
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header con flexbox para alinear los elementos */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: var(--header-text);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Dropdown city selector */
+.city-selector {
+    background-color: var(--city-selector-bg);
+    color: var(--primary-text);
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid var(--city-selector-border);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.city-selector option {
+    background-color: var(--header-bg);
+    color: var(--primary-text);
+}
+
+.city-selector:focus {
+    outline: none;
+    border-color: var(--city-selector-border);
+}
+
+/* Estilo de los botones de autenticación */
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons button {
+    background-color: var(--auth-btn-bg);
+    color: var(--primary-text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.auth-buttons button:hover {
+    background-color: var(--auth-btn-hover-bg);
+}
+
+/* Contenedor de las películas */
+.peliculas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Para alinear a la derecha */
+    gap: 20px; /* Espacio entre las películas */
+}
+
+/* Estilo de las películas */
+.pelicula {
+    width: 200px; /* Ancho fijo de las películas */
+    margin-bottom: 20px; /* Espacio entre filas */
+    text-align: center;
+    background-color: var(--pelicula-bg);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Imagen de la película */
+.pelicula img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Información debajo de la imagen */
+.pelicula-info {
+    padding: 10px;
+    background-color: var(--pelicula-info-bg);
+}
+
+.pelicula-info h3, .pelicula-info p {
+    margin: 5px 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-1 {
+    flex: 0 0 auto;
+}
+
+.col-10 {
+    flex: 1;
+}
+
+.e-btn {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Estilos adicionales para botones */
+.btnScroll {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.btnScroll:hover {
+    transform: scale(var(--btnScroll-hover-scale));
+}
+
+
+
+
+.banner-carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1800px; /* Ajusta el tamaño del carrusel */
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(87, 71, 71, 0.5);
+    color: rgb(172, 172, 172);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 120px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+
+

@@ -1,0 +1,231 @@
+:root {
+    --primary-bg: #111;
+    --primary-text: #fff;
+    --header-bg: #000;
+    --header-text: #fff;
+    --city-selector-bg: #222;
+    --city-selector-border: #00aaff;
+    --auth-btn-bg: #555;
+    --auth-btn-hover-bg: #777;
+    --pelicula-bg: #fff;
+    --pelicula-info-bg: #f4f4f4;
+    --btnScroll-hover-scale: 1.1;
+}
+
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del formulario de inicio de sesión */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente el contenido */
+    justify-content: center; /* Centra verticalmente el contenido */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+/* Estilo del logo */
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-bottom: 20px; /* Espacio entre el logo y el formulario */
+}
+
+/* Estilo del formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="email"], input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo del botón de envío */
+button {
+    background-color: var(--auth-btn-bg);
+    color: var(--primary-text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Espacio entre el input y el botón */
+}
+
+button:hover {
+    background-color: var(--auth-btn-hover-bg);
+}
+
+/* Estilo de los enlaces */
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    color: var(--primary-text);
+    text-decoration: none;
+    margin: 0 5px;
+}
+:root {
+    --primary-bg: #111;
+    --primary-text: #fff;
+    --header-bg: #000;
+    --header-text: #fff;
+    --city-selector-bg: #222;
+    --city-selector-border: #00aaff;
+    --auth-btn-bg: #555;
+    --auth-btn-hover-bg: #777;
+    --pelicula-bg: #fff;
+    --pelicula-info-bg: #f4f4f4;
+    --btnScroll-hover-scale: 1.1;
+}
+
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del formulario de inicio de sesión */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente el contenido */
+    justify-content: center; /* Centra verticalmente el contenido */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+/* Estilo del logo */
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-bottom: 20px; /* Espacio entre el logo y el formulario */
+}
+
+/* Estilo del formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="email"], input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo del botón de envío */
+button {
+    background-color: var(--auth-btn-bg);
+    color: var(--primary-text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Espacio entre el input y el botón */
+}
+
+button:hover {
+    background-color: var(--auth-btn-hover-bg);
+}
+
+/* Estilo de los enlaces */
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    color: var(--primary-text);
+    text-decoration: none;
+    margin: 0 5px;
+}
+:root {
+    --primary-bg: #111;
+    --primary-text: #fff;
+    --header-bg: #000;
+    --header-text: #fff;
+    --city-selector-bg: #222;
+    --city-selector-border: #00aaff;
+    --auth-btn-bg: #555;
+    --auth-btn-hover-bg: #777;
+    --pelicula-bg: #fff;
+    --pelicula-info-bg: #f4f4f4;
+    --btnScroll-hover-scale: 1.1;
+}
+
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del formulario de inicio de sesión */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente el contenido */
+    justify-content: center; /* Centra verticalmente el contenido */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+/* Estilo del logo */
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-bottom: 20px; /* Espacio entre el logo y el formulario */
+}
+
+/* Estilo del formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="email"], input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo del botón de envío */
+button {
+    background-color: var(--auth-btn-bg);
+    color: var(--primary-text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Espacio entre el input y el botón */
+}
+
+button:hover {
+    background-color: var(--auth-btn-hover-bg);
+}
+
+/* Estilo de los enlaces */
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    color: var(--primary-text);
+    text-decoration: none;
+    margin: 0 5px;
+}
